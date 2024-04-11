@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="span4">
 					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="eg. T-sirt">
+						<input type="text" class="input-block-level search-query" Placeholder="Search">
 					</form>
 				</div>
 				<div class="span8">
@@ -217,9 +217,9 @@
 													<label class="control-label"><span class="required">*</span> Country:</label>
 													<div class="controls">
 														<select class="input-xlarge">
-															<option value="1">Afghanistan</option>
-															<option value="2">Albania</option>
-															<option value="3">Algeria</option>
+															<option value="1">TP HCM</option>
+															<option value="2">TP HN</option>
+															<option value="3"></option>
 															<option value="4">American Samoa</option>
 															<option value="5">Andorra</option>
 															<option value="6">Angola</option>
@@ -231,11 +231,11 @@
 													<div class="controls">
 														<select name="zone_id" class="input-xlarge">
 															<option value=""> --- Please Select --- </option>
-															<option value="3513">Aberdeen</option>
-															<option value="3514">Aberdeenshire</option>
-															<option value="3515">Anglesey</option>
-															<option value="3516">Angus</option>
-															<option value="3517">Argyll and Bute</option>
+															<option value="3513">Việt Nam</option>
+															<option value="3514">US</option>
+															<option value="3515">Brazil</option>
+															<option value="3516">UK</option>
+															<option value="3517">China</option>
 														</select>
 													</div>
 												</div>
