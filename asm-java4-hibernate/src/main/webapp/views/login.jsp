@@ -55,7 +55,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 								<div class="navbar-inner main-menu">				
-					<a href="<c:url value='/index' />" class="logo pull-left"><img src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
+					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="./products.html">Giày</a>					
@@ -80,7 +80,7 @@
 				</div>
 			</section>	
 			<section class="header_text sub">
-			<img class="pageBanner" src="<c:url value='home/themes/images/pageBanner.png' />" alt="New products" >
+			<img class="pageBanner" src="<c:url value='home/themes/images/nike_sb.png' />" alt="New products" >
 				<h4><span>Login</span></h4>
 			</section>
 			<section class="main-content">
