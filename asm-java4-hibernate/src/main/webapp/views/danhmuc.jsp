@@ -32,9 +32,8 @@
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">
-					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="Search">
-					</form>
+					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
+
 				</div>
 				<div class="span8">
 					<div class="account pull-right">
@@ -55,8 +54,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
-					<nav id="menu" class="pull-right">
+					<nav id="menu" class="pull-left">
 						<ul>
 							<li><a href="./products.html">Giày</a>					
 								<ul>
@@ -80,7 +78,7 @@
 				</div>
 			</section>	
 			<section class="header_text sub">
-			<img class="pageBanner" src="<c:url value='home/themes/images/pageBanner.png' />" alt="New products" >
+			<img class="pageBanner" src="<c:url value='home/themes/images/nike_sn.png' />" alt="New products" >
 				<h4><span>${category.tendanhmuc}</span></h4>
 			</section>
 			<section class="main-content">
@@ -150,7 +148,7 @@
 					</div>
 					<div class="span5">
 						<p class="logo"><img src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the  Lorem Ipsum has been the industry's standard dummy text ever since the you.</p>
+						<p>FPT POLYTECHNIC TP HỒ CHÍ MINH</p>
 						<br/>
 						<span class="social_icons">
 							<a class="facebook" href="#">Facebook</a>

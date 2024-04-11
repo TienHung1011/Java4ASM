@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Index</title>
+		<title>NICE KICKS</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -32,9 +32,8 @@
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">
-					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="Search">
-					</form>
+									<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
+				
 				</div>
 				<div class="span8">
 					<div class="account pull-right">
@@ -55,8 +54,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 							<div class="navbar-inner main-menu">				
-					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
-					<nav id="menu" class="pull-right">
+					<nav id="menu" class="pull-left">
 						<ul>
 							<li><a href="./products.html">Giày</a>					
 								<ul>
@@ -65,7 +63,7 @@
 									<li><a href="./products.html">Đi tiệc</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.html">Man</a></li>			
+							<li><a href="./products.html">Phụ kiện</a></li>			
 							<li><a href="./products.html">Sport</a>
 								<ul>									
 									<li><a href="./products.html">Dụng cụ</a></li>

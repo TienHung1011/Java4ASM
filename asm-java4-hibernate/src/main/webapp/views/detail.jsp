@@ -32,9 +32,7 @@
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">
-					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="Search">
-					</form>
+					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
 				</div>
 				<div class="span8">
 					<div class="account pull-right">
@@ -55,8 +53,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 							<div class="navbar-inner main-menu">				
-					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
-					<nav id="menu" class="pull-right">
+					<nav id="menu" class="pull-left">
 						<ul>
 							<li><a href="./products.html">Giày</a>					
 								<ul>
@@ -65,7 +62,7 @@
 									<li><a href="./products.html">Đi tiệc</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.html">Man</a></li>			
+							<li><a href="./products.html">Phụ kiện</a></li>			
 							<li><a href="./products.html">Sport</a>
 								<ul>									
 									<li><a href="./products.html">Dụng cụ</a></li>
@@ -80,7 +77,7 @@
 				</div>
 			</section>	
 			<section class="header_text sub">
-			<img class="pageBanner" src="<c:url value='home/themes/images/pageBanner.png' />" alt="New products" >
+			<img class="pageBanner" src="<c:url value='home/themes/images/nike_sb.png' />" alt="New products" >
 				<h4><span>${product.tensp}</span></h4>
 			</section>
 			<section class="main-content">
@@ -103,7 +100,7 @@
 							<div class="span5">
 								<form class="form-inline">
 									<p>&nbsp;</p>
-									<label>Qty:</label>
+									<label>SL:</label>
 									<input id="soLuongMua" type="number" value="1" class="span1" placeholder="1" min="1" max="${product.soluong}">
 									<button class="btn btn-inverse" type="button" id="addToCart">Add to cart</button>
 								</form>
@@ -121,7 +118,7 @@
 							<div class="span9">	
 								<br>
 								<h4 class="title">
-									<span class="pull-left"><span class="text"><strong>Related</strong> Products</span></span>
+									<span class="pull-center"><span class="text">Related Products</span></span>
 									<span class="pull-right">
 										<a class="left button" href="#myCarousel-1" data-slide="prev"></a><a class="right button" href="#myCarousel-1" data-slide="next"></a>
 									</span>
@@ -134,26 +131,26 @@
 													<div class="product-box">
 														<span class="sale_tag"></span>												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/6.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Wuam ultrices rutrum</a><br/>
-														<a href="#" class="category">Suspendisse aliquet</a>
-														<p class="price">$341</p>
+														<a href="product_detail.html" class="title">Jordan</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">3410000</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/5.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Fusce id molestie massa</a><br/>
-														<a href="#" class="category">Phasellus consequat</a>
-														<p class="price">$341</p>
+														<a href="product_detail.html" class="title">Nike</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">2000000</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/4.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Praesent tempor sem</a><br/>
-														<a href="#" class="category">Erat gravida</a>
-														<p class="price">$28</p>
+														<a href="product_detail.html" class="title">Lerbon</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">1000000</p>
 													</div>
 												</li>												
 											</ul>
@@ -164,26 +161,26 @@
 													<div class="product-box">
 														<span class="sale_tag"></span>												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/1.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Fusce id molestie massa</a><br/>
-														<a href="#" class="category">Phasellus consequat</a>
-														<p class="price">$341</p>
+														<a href="product_detail.html" class="title">Adidas</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">2300000</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/2.jpg"></a><br/>
-														<a href="product_detail.html">Praesent tempor sem</a><br/>
-														<a href="#" class="category">Erat gravida</a>
-														<p class="price">$28</p>
+														<a href="product_detail.html">Max-air</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">2400000</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
 														<a href="product_detail.html"><img alt="" src="themes/images/ladies/3.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Wuam ultrices rutrum</a><br/>
-														<a href="#" class="category">Suspendisse aliquet</a>
-														<p class="price">$341</p>
+														<a href="product_detail.html" class="title">Balencia</a><br/>
+														<a href="#" class="category">Sport</a>
+														<p class="price">1500000</p>
 													</div>
 												</li>
 											</ul>

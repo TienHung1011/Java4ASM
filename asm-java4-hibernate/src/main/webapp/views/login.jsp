@@ -32,9 +32,7 @@
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">
-					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="Search">
-					</form>
+								<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
 				</div>
 				<div class="span8">
 					<div class="account pull-right">
@@ -55,8 +53,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 								<div class="navbar-inner main-menu">				
-					<a href="<c:url value='/index' />" class="logo pull-left"><img style="height: 60px" src="<c:url value='home/themes/images/logo.png' />" class="site_logo" alt=""></a>
-					<nav id="menu" class="pull-right">
+					<nav id="menu" class="pull-left">
 						<ul>
 							<li><a href="./products.html">Giày</a>					
 								<ul>
@@ -65,7 +62,7 @@
 									<li><a href="./products.html">Đi tiệc</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.html">Man</a></li>			
+							<li><a href="./products.html">Phụ kiện</a></li>			
 							<li><a href="./products.html">Sport</a>
 								<ul>									
 									<li><a href="./products.html">Dụng cụ</a></li>
@@ -86,7 +83,7 @@
 			<section class="main-content">
 				<div class="row">
 					<div style="width: 400px; margin: auto">					
-						<h4 class="title"><span class="text"><strong>Login</strong> Form</span></h4>
+						<h4 class=""><span class="text"><strong>Login</strong> Form</span></h4>
 						<h5 style="color: red; text-align: center; margin-top: -10px">${errorMessage}</h5>
 						<form action="<c:url value='/login' />" method="POST" >
 							<input type="hidden" name="next" value="/">
